@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #172C3F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-color {
+  background-color: #172A3B;
+}
+
+.welcome-logo {
+  height: 50vmin;
+}
+
+.welcome-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 18px;
+  color: #ECF2FF;
+}
+
+.btn {
+  background-color: #009BDE;
+}
+
+.edit {
+  margin-left: 15px;
+  margin-bottom: 18px;
+}
+
+.delete {
+  background-color: #D33556!important;
+}
+
+.App-logo {
+  margin-top: 9px;
+  height: 5vmin;
+}
+
+form {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+text.area.materialize-textarea:focus:not([readonly]){
+  border-color: red;
+  box-shadow: none
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
